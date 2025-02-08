@@ -12,6 +12,7 @@
 
         <!-- Scripts -->
         @routes
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
         @vite(['resources/js/app.ts', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
     </head>
